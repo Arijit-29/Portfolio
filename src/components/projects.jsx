@@ -1,3 +1,8 @@
+import ML_model from "../assets/ML_model.png"
+import weatherAppImg from '../assets/weather_app.png';
+import myntraCloneImg from '../assets/myntra_clone.png';
+import game from "../assets/tic-tac-toe.png"
+import todo from "../assets/todoapp.png"
 const Projects = ({isDarkMode}) => {
   return (
     <div id="Projects" className="px-10 pb-10 md:px-24 md:pb-24 text-white">
@@ -8,7 +13,7 @@ const Projects = ({isDarkMode}) => {
 
         {/*weather app*/}
         <div className={`p-3 md:p-6 flex flex-col w-80 ${isDarkMode?'bg-[#0c0e19]':'bg-gray-400'} shadow-xl shadow-slate-900 rounded-2xl hover:scale-105 transition-transform duration-300`}>
-          <img src="src\assets\weather_app.png" alt="" className="p-0 rounded-2xl" />
+          <img src={weatherAppImg} alt="" className="p-0 rounded-2xl" />
           <h3 className={`px-4 text-xl md:text-2xl font-bold leading-normal ${isDarkMode?'text-white':'text-black'}`}>
             Weather App
           </h3>
@@ -47,7 +52,7 @@ const Projects = ({isDarkMode}) => {
 
         {/*myntra clone*/}
         <div className={`p-3 md:p-6 flex flex-col w-80 ${isDarkMode?'bg-[#0c0e19]':'bg-gray-400'} shadow-xl shadow-slate-900 rounded-2xl hover:scale-105 transition-transform duration-300`}>
-          <img src="src\assets\myntra_clone.png" alt="" className="p-0 rounded-2xl" />
+          <img src={myntraCloneImg} alt="" className="p-0 rounded-2xl" />
           <h3 className={`px-4 text-xl md:text-2xl font-bold leading-normal ${isDarkMode?'text-white':'text-black'}`}>
             Myntra Clone
           </h3>
@@ -87,7 +92,7 @@ const Projects = ({isDarkMode}) => {
 
         {/*ML model*/}
         <div className={`p-3 md:p-6 flex flex-col w-80 ${isDarkMode?'bg-[#0c0e19]':'bg-gray-400'} shadow-xl shadow-slate-900 rounded-2xl hover:scale-105 transition-transform duration-300`}>
-          <img src="src\assets\ML_model.png" alt="" className="p-0 rounded-2xl" />
+          <img src={ML_model} alt="" className="p-0 rounded-2xl" />
           <h3 className={`px-4 text-xl md:text-2xl font-bold leading-normal ${isDarkMode?'text-white':'text-black'}`}>
             Placement Predictor
           </h3>
@@ -117,7 +122,7 @@ const Projects = ({isDarkMode}) => {
 
         {/*tic tac toe game*/}
         <div className={`p-3 md:p-6 flex flex-col w-80 ${isDarkMode?'bg-[#0c0e19]':'bg-gray-400'} shadow-xl shadow-slate-900 rounded-2xl hover:scale-105 transition-transform duration-300`}>
-          <img src="src\assets\tic-tac-toe.png" alt="" className="p-0 rounded-2xl" />
+          <img src={game} alt="" className="p-0 rounded-2xl" />
           <h3 className={`px-4 text-xl md:text-2xl font-bold leading-normal ${isDarkMode?'text-white':'text-black'}`}>
             Tic-Tac-toe game
           </h3>
@@ -156,7 +161,7 @@ const Projects = ({isDarkMode}) => {
 
  {/*todoapp */}
  <div className={`p-3 md:p-6 flex flex-col w-80 ${isDarkMode?'bg-[#0c0e19]':'bg-gray-400'} shadow-xl shadow-slate-900 rounded-2xl hover:scale-105 transition-transform duration-300`}>
-          <img src="src\assets\todoapp.png" alt="" className="p-0 rounded-2xl" />
+          <img src={todo} alt="" className="p-0 rounded-2xl" />
           <h3 className={`px-4 text-xl md:text-2xl font-bold leading-normal ${isDarkMode?'text-white':'text-black'}`}>
             Todo-list App
           </h3>

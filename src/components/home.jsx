@@ -1,5 +1,6 @@
 import { useState,useEffect } from "react";
 import TextChange from "./textChange"
+import avatarImg from "../assets/avatar.jpg"
 const Home=({isDarkMode})=>{
       const [showPopup, setShowPopup] = useState(false);
     useEffect(() => {
@@ -36,7 +37,7 @@ return(
                 </div>
             </div>
             <div>
-                <img src="src\assets\avatar.jpg" alt="" className="w-100  transition-all duration-300 
+                <img src={avatarImg} alt="" className="w-100  transition-all duration-300 
                         hover:scale-105 rounded-full
                         hover:shadow-2xl hover:shadow-sky-500/50"/>
             </div>
