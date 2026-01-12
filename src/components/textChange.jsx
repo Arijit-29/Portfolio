@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 const TextChange = ({isDarkMode}) => {
   const texts = [
     "Hi , I am Arijit",
-    "I'm a frontend developer",
+    "I'm a MERN stack developer",
     "I'm a data enthusiast",
   ];
   const [currText, setcurrText] = useState("");

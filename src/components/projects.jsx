@@ -1,6 +1,6 @@
 import ML_model from "../assets/ML_model.png"
 import weatherAppImg from '../assets/weather_app.png';
-import myntraCloneImg from '../assets/myntra_clone.png';
+import AirbnbCloneImg from '../assets/Airbnb_clone.png';
 import game from "../assets/tic-tac-toe.png"
 import todo from "../assets/todoapp.png"
 const Projects = ({isDarkMode}) => {
@@ -15,7 +15,7 @@ const Projects = ({isDarkMode}) => {
         <div className={`p-3 md:p-6 flex flex-col w-80 ${isDarkMode?'bg-[#0c0e19]':'bg-gray-400'} shadow-xl shadow-slate-900 rounded-2xl hover:scale-105 transition-transform duration-300`}>
           <img src={weatherAppImg} alt="" className="p-0 rounded-2xl" />
           <h3 className={`px-4 text-xl md:text-2xl font-bold leading-normal ${isDarkMode?'text-white':'text-black'}`}>
-            Weather App
+            Weather App using Reactjs
           </h3>
           <div className="flex flex-wrap gap-2 px-2 mt-4">
             <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
@@ -25,7 +25,16 @@ const Projects = ({isDarkMode}) => {
               Redux
             </span>
             <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
-              API
+              JSON
+            </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+              weather API
+            </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+              geolocation
+            </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+              mobile responsive
             </span>
           </div>
           <div className="mt-2 p-2 md:p-0 flex gap-2 md:gap-4 text-center">
@@ -50,27 +59,36 @@ const Projects = ({isDarkMode}) => {
           </div>
         </div>
 
-        {/*myntra clone*/}
+        {/*Airbnb clone*/}
         <div className={`p-3 md:p-6 flex flex-col w-80 ${isDarkMode?'bg-[#0c0e19]':'bg-gray-400'} shadow-xl shadow-slate-900 rounded-2xl hover:scale-105 transition-transform duration-300`}>
-          <img src={myntraCloneImg} alt="" className="p-0 rounded-2xl" />
+          <img src={AirbnbCloneImg} alt="" className="p-0 rounded-2xl" />
           <h3 className={`px-4 text-xl md:text-2xl font-bold leading-normal ${isDarkMode?'text-white':'text-black'}`}>
-            Myntra Clone
+            Full-Stack Airbnb Clone
           </h3>
           <div className="flex flex-wrap gap-2 px-2 mt-4">
             <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
-              Html
+              Node
             </span>
             <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
-              Css
+              Express
             </span>
             <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
-              Js
+              EJs
+            </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+              Tailwindcss
+            </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+              Mongo+MySQL
+            </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+              Razorpay
             </span>
           </div>
           <div className="mt-2 p-2 md:p-0 flex gap-2 md:gap-4 text-center">
             <button className="md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
               <a
-                href="https://myntra-clone-5xca3r77y-arijit-chatterjees-projects-0f8f2fd1.vercel.app"
+                href="https://airbnb-buma.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -79,7 +97,7 @@ const Projects = ({isDarkMode}) => {
             </button>
             <button className="md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
               <a
-                href="https://github.com/Arijit-29/Myntra_Clone"
+                href="https://github.com/Arijit-29/Airbnb"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -104,8 +122,24 @@ const Projects = ({isDarkMode}) => {
               jupyter
             </span>
             <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
-              ml
+              machine learning model
             </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+              logistic regression
+            </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+              pandas
+            </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+              numpy
+            </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+              matplotlib
+            </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+              scikit learn
+            </span>
+
           </div>
           <div className="mt-2 p-2 md:p-0 flex gap-2 md:gap-4 text-center">
             <button className="md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
@@ -136,11 +170,14 @@ const Projects = ({isDarkMode}) => {
             <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
               Js
             </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+              Supabase
+            </span>
           </div>
           <div className="mt-2 p-2 md:p-0 flex gap-2 md:gap-4 text-center">
             <button className="md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
               <a
-                href="https://tic-tac-no9vl6aa6-arijit-chatterjees-projects-0f8f2fd1.vercel.app"
+                href="https://tic-tac-toe-gamma-puce.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >

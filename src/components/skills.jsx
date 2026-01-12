@@ -10,8 +10,10 @@ import {
   FaDatabase,
   FaBootstrap,
   FaKaggle,
+  FaNode,
 } from "react-icons/fa";
 import { FcScatterPlot } from "react-icons/fc";
+import { GrMysql } from "react-icons/gr";
 import { IoLogoVercel } from "react-icons/io5";
 import { RiGeminiFill } from "react-icons/ri";
 import {
@@ -25,6 +27,13 @@ import {
   SiPandas,
   SiNumpy,
   SiScikitlearn,
+  SiExpress,
+  SiMongodb,
+  SiSupabase,
+  SiPostman,
+  SiGithubcopilot,
+  SiRender,
+  SiClaude,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
@@ -57,6 +66,17 @@ const Skills = ({isDarkMode}) => {
       ],
     },
     {
+      category: "Backend and Database",
+      icons: [
+        {icon:FaNode, name:"Node.js"},
+        {icon:SiExpress, name:"Express.js"},
+        {icon:GrMysql, name:"MySQL"},
+        {icon:SiMongodb, name:"MongoDB"},
+        {icon:SiSupabase, name:"Supabase"},
+        {icon:SiPostman, name:"Postman"},
+      ],
+    },
+    {
       category: "Languages",
       icons: [
         { icon: FaPython, name: "Python" },
@@ -72,9 +92,12 @@ const Skills = ({isDarkMode}) => {
         { icon: VscVscode, name: "VsCode" },
         { icon: FaGitAlt, name: "Git" },
         { icon: SiGithub, name: "GitHub" },
+        {icon:SiGithubcopilot, name:"GitHub Copilot"},
         { icon: IoLogoVercel, name: "Vercel" },
+        {icon:SiRender, name:"Render"},
         { icon: AiOutlineOpenAI, name: "OpenAI" },
         { icon: RiGeminiFill, name: "Gemini" },
+        {icon:SiClaude, name:"Claude"},
       ],
     },
   ];

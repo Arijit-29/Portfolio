@@ -10,9 +10,9 @@ return(
                 <div className="flex gap-3 py-4">
                     <IoArrowForward size={30} className="mt-1"/>
                     <span className="w-96">
-<h1 className="text-xl md:text-2xl font-semibold leading-normal">Frontend Developer</h1>
+<h1 className="text-xl md:text-2xl font-semibold leading-normal">Full-Stack MERN Developer</h1>
 <p className="text-sm md:text-md leading-tight">
-    As a frontend developer, I specialize in transforming UI/UX designs into high-performing, user-friendly web applications. My expertise lies in HTML, CSS, and modern JavaScript, and I have a strong command of frameworks like React. I am passionate about writing clean, efficient code and creating responsive, accessible digital experiences that users love. I am always eager to learn and adapt to new technologies to build better products.
+   As a Full-Stack MERN Developer, I specialize in building scalable, high-performance web applications from concept to deployment. I have strong expertise in HTML, CSS, and modern JavaScript, along with hands-on experience in React for crafting intuitive, responsive, and accessible user interfaces. On the backend, I work with Node.js, Express.js, and MongoDB to design robust APIs, manage databases, and implement secure, efficient server-side logic. I am passionate about writing clean, maintainable code, optimizing application performance, and delivering seamless user experiences. Always eager to learn and adapt, I continuously explore new tools and technologies to build reliable, impactful digital products.
 </p>
                     </span>
                 </div>

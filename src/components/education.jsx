@@ -4,7 +4,7 @@ const Education = () => {
     {
       institution: "Jadavpur University [B.E.]",
       period: "2024 - 2028",
-      details: ["Current CGPA: 9.02"],
+      details: ["Current CGPA: 8.65"],
       icon:FaUniversity ,
     },
     {
