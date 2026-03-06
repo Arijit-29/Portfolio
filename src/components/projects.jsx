@@ -2,7 +2,7 @@ import ML_model from "../assets/ML_model.png"
 import weatherAppImg from '../assets/weather_app.png';
 import AirbnbCloneImg from '../assets/Airbnb_clone.png';
 import game from "../assets/tic-tac-toe.png"
-import todo from "../assets/todoapp.png"
+import room from "../assets/room.png"
 const Projects = ({isDarkMode}) => {
   return (
     <div id="Projects" className="px-10 pb-10 md:px-24 md:pb-24 text-white">
@@ -10,7 +10,49 @@ const Projects = ({isDarkMode}) => {
         Projects
       </h1>
       <div className="py-12 px-8 flex flex-wrap gap-10 justify-center">
-
+      <div className={`p-3 md:p-6 flex flex-col w-80 ${isDarkMode?'bg-[#0c0e19]':'bg-gray-400'} shadow-xl shadow-slate-900 rounded-2xl hover:scale-105 transition-transform duration-300`}>
+          <img src={room} alt="" className="p-0 rounded-2xl" />
+          <h3 className={`px-4 text-xl md:text-2xl font-bold leading-normal ${isDarkMode?'text-white':'text-black'}`}>
+            RoomBalance - A Roommate Fairness App
+          </h3>
+          <div className="flex flex-wrap gap-2 px-2 mt-4">
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+             MERN
+            </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+             JWT
+            </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+              Oauth
+            </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+              Tailwindcss
+            </span>
+            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
+              Recharts
+            </span>
+          </div>
+          <div className="mt-2 p-2 md:p-0 flex gap-2 md:gap-4 text-center">
+            <button className="md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
+              <a
+                href="https://roombalance.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit 🚀
+              </a>
+            </button>
+            <button className="md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
+              <a
+                href="https://github.com/Arijit-29/RoomBalance"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Source Code
+              </a>
+            </button>
+          </div>
+        </div>
         {/*weather app*/}
         <div className={`p-3 md:p-6 flex flex-col w-80 ${isDarkMode?'bg-[#0c0e19]':'bg-gray-400'} shadow-xl shadow-slate-900 rounded-2xl hover:scale-105 transition-transform duration-300`}>
           <img src={weatherAppImg} alt="" className="p-0 rounded-2xl" />
@@ -187,45 +229,6 @@ const Projects = ({isDarkMode}) => {
             <button className="md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
               <a
                 href="https://github.com/Arijit-29/TicTacToe"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Source Code
-              </a>
-            </button>
-          </div>
-        </div>
-
- {/*todoapp */}
- <div className={`p-3 md:p-6 flex flex-col w-80 ${isDarkMode?'bg-[#0c0e19]':'bg-gray-400'} shadow-xl shadow-slate-900 rounded-2xl hover:scale-105 transition-transform duration-300`}>
-          <img src={todo} alt="" className="p-0 rounded-2xl" />
-          <h3 className={`px-4 text-xl md:text-2xl font-bold leading-normal ${isDarkMode?'text-white':'text-black'}`}>
-            Todo-list App
-          </h3>
-          <div className="flex flex-wrap gap-2 px-2 mt-4">
-            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
-              React
-            </span>
-            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
-              Bootstrap
-            </span>
-            <span className="bg-red-900/60 text-red-200 text-xs font-medium px-3 py-1 rounded-md">
-              icons
-            </span>
-          </div>
-          <div className="mt-2 p-2 md:p-0 flex gap-2 md:gap-4 text-center">
-            <button className="md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-              <a
-                href="https://todo-app-mocha-gamma.vercel.app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Visit 🚀
-              </a>
-            </button>
-            <button className="md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-              <a
-                href="https://github.com/Arijit-29/TodoApp"
                 target="_blank"
                 rel="noopener noreferrer"
               >
